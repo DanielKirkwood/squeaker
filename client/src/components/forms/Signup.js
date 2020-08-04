@@ -26,7 +26,7 @@ export class Signup extends Component {
 					</Header>
 					<SignupForm onSubmit={this.onSubmit} ui={this.props.ui} />
 					<Message>
-						<Link to='/signup' className='ui secondary animated fade button' tabIndex='0'>
+						<Link to='/login' className='ui secondary animated fade button' tabIndex='0'>
 							<div className='visible content'>Already have an account?</div>
 							<div className='hidden content'>Log In Now</div>
 						</Link>
